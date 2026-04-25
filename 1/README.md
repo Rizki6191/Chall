@@ -2,7 +2,7 @@
 
 jadi disini gw bakal ngerjain ulang soal ret2libc via format strings tanpa adanya ai
 
-![Gambar](../assets/1/1.2.png)
+![Gambar](../assets/1/1.1.png)
 
 kalo dilihat pake checsec kelihatan kalo gak ada canary tapi PIE nya enabled dan kalo PIE nya enabled biasanya ASLR juga ada
 
