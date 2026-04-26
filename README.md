@@ -12,6 +12,7 @@ Cuma Repo yang isinya *writeup* dan catatan.
 
 | Day | Challenge Name | Folder |
 | :--- | :--- | :--- |
-| Day 1 | Ret2Libc via Format Strings | [Open Writeup](./1) |
+| Day 1 | Ret2Libc via Format String | [Open Writeup](./1) |
+| Day 2 | Format String with fmtstr_payload | [Open Writeup](./2) |
 
 </details>
