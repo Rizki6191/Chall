@@ -6,9 +6,9 @@ Hari ini gw mau belajar tools `request` di python buat keperluan Web Exploitatio
 
 Jadi gw dikasih sebuah list password yang salah satunya password yang bener, disitu gw juga dikasih crendential emailnya
 
-![Gambar](../assets/4/4.2.png)
-
 Gw coba buat read web nya pake `request.get()` dan gw dapet bagaimana fitur login bekerja, intinya kalo gw berhasil login dengan crendential yang bener bakal dapet flagnya
+
+![Gambar](../assets/4/4.2.png)
 
 selanjutnya gw bikin scriptnya dengan looping buat mencoba setiap password yang ada di list password, gw terapin pake `request.post()`
 
