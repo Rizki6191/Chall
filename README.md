@@ -27,3 +27,13 @@ Cuma Repo yang isinya *writeup* dan catatan.
 | Day 4 | Brute Force List Password with Python requests library | [Open Writeup](./4) |
 
 </details>
+
+<details>
+<summary><b>🔐 Cryptography</b></summary>
+<br>
+
+| Day | Challenge Name | Folder |
+| :--- | :--- | :--- |
+| Day 5 | AES-CTR Nonce Reuse Attack | [Open Writeup](./5) |
+
+</details>

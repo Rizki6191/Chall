@@ -1,0 +1,3 @@
+REMOTE: socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"python3 encrypt.py"
+
+ACCESS: nc localhost 1337
