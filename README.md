@@ -25,6 +25,7 @@ Cuma Repo yang isinya *writeup* dan catatan.
 | Day | Challenge Name | Folder |
 | :--- | :--- | :--- |
 | Day 4 | Brute Force List Password with Python requests library | [Open Writeup](./4) |
+| Day 6 | Custom Headers with Python requests library | [Open Writeup](./6) |
 
 </details>
 
