@@ -1,5 +1,9 @@
 # Writeups
 
+### 🌐 Web Exploitation
+
+## Custom Headers with Python requests library
+
 Hari ini gw mau ngerjain Challenges dari picoCTF atau sekarang namanya `Cylabacademy` yang nama `Crack the Gate 1`
 
 kalo dijalanin sama diakses webnya, kelihatan kalo gw ada di login page, dan hal pertama yang gw lakuin yaitu ngecek view source nya

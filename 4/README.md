@@ -1,5 +1,9 @@
 # Writeups
 
+### 🌐 Web Exploitation
+
+## Brute Force List Password with Python requests library
+
 Hari ini gw mau belajar tools `request` di python buat keperluan Web Exploitation, gw bakal ngerjain Challenges dari picoCTF yang nama Challengesnya `Crack the Gate 2` sekaligus belajar penggunaan tools `request`
 
 ![Gambar](../assets/4/4.1.png)

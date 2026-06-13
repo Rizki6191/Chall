@@ -1,5 +1,9 @@
 # Writeups
 
+### 🔐 Cryptography
+
+## AES-CTR Nonce Reuse Attack
+
 Hari ini gw mau belajar `XOR` sama `keystream` lewat chall `AES-CTR`
 
 ![Gambar](../assets/5/5.1.png)
