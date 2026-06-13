@@ -1,0 +1,56 @@
+name: Chall
+
+on:
+  schedule:
+    - cron: '0 0 * * *'     # Setiap hari jam 00:00 UTC
+    - cron: '0 12 * * *'    # Setiap hari jam 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup git
+        run: |
+          git config --global user.name "${{ secrets.GIT_NAME }}"
+          git config --global user.email "${{ secrets.GIT_EMAIL }}"
+      
+      - name: Generate message
+        run: |
+          messages=(
+            "Malas lu!!"
+            "M4las lu"
+            "M4l4s lu"
+            "M4l4s 7u"
+            "Ma1as 1u"
+            "M@l@s lu"
+            "M4L4S LU"
+            "m4l4s lu"
+            "Malaz lu"
+            "M4L4Z LU"
+          )
+          
+          # Sequential: baca index, kalau sudah habis balik ke awal
+          INDEX_FILE=".msg_index"
+          if [ -f "$INDEX_FILE" ]; then
+            LAST=$(cat "$INDEX_FILE")
+            NEXT=$(( (LAST + 1) % ${#messages[@]} ))
+          else
+            NEXT=0
+          fi
+          
+          echo "$NEXT" > "$INDEX_FILE"
+          echo "${messages[$NEXT]}" > daily_msg.txt
+          
+          echo "Message: ${messages[$NEXT]}"
+      
+      - name: Commit and push
+        run: |
+          git add .msg_index daily_msg.txt
+          git commit -m "$(cat daily_msg.txt)" || echo "Nothing to commit"
+          git push
