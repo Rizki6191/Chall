@@ -15,6 +15,7 @@ Cuma Repo yang isinya *writeup* dan catatan.
 | Day 1 | Ret2Libc via Format String | [Open Writeup](./1) |
 | Day 2 | Format String with fmtstr_payload | [Open Writeup](./2) |
 | Day 3 | Got Overwrite via Format String | [Open Writeup](./3) |
+| Day 7 | shellcode with read, write, open | [Open Writeup](./7) |
 
 </details>
 
