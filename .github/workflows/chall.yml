@@ -2,7 +2,6 @@ name: Chall
 
 on:
   schedule:
-    - cron: '0 0 * * *'     # Setiap hari jam 00:00 UTC
     - cron: '0 12 * * *'    # Setiap hari jam 12:00 UTC
   workflow_dispatch:
 
