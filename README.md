@@ -28,6 +28,7 @@ Cuma Repo yang isinya *writeup* dan catatan.
 | Day 4 | Brute Force List Password with Python requests library | [Open Writeup](./4) |
 | Day 6 | Custom Headers with Python requests library | [Open Writeup](./6) |
 | Day 8 | No SQLI without function | [Open Writeup](./8) |
+| Day 9 | XML External Entity Injection | [Open Writeup](./9) |
 
 </details>
 
